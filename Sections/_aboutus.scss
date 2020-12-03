@@ -1,0 +1,62 @@
+
+
+
+#AboutUs .Container{
+    display: flex;
+    justify-content: space-between ;
+    height: 810px;
+}
+
+#AboutUs .Image-AboutUs{
+    padding-top: 5.3rem;
+    padding-right: 8rem;
+
+    @media (max-width: 1140px) {display: none;}
+   
+}
+
+#AboutUs .Text-AboutUs{
+     margin-top: auto;
+     margin-bottom: auto;
+     padding-right: 5rem;
+     padding-left: 8rem;
+     @media(max-width: 500px){padding-top: 0%; margin-top: -15px;}
+     @media(min-width: 800px) {padding-left: 2.5rem;}
+     @media(max-width: 500px) {padding-left: 3.5rem; text-align: center;}
+    
+     p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        @media(max-width: 500px){font-size: 12px;}
+     }
+}
+
+#AboutUs .Header-AboutUs{
+   
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px; 
+    border-bottom: 4px solid $Teal;
+    @media(max-width: 500px){font-size: 20px;}
+}
+
+#AboutUs .AboutUs-Text-Blue{
+    color: $Blue;
+}
+
+#AboutUs .Statistic-AboutUs{
+    display: flex;
+    justify-content: space-between;
+}
+
+#AboutUs .Statistic-Box-AboutUs .Number {
+    color: $Blue;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    @media(max-width: 500px){font-size: 20px;}
+}
+
+#AboutUs .Statistic-Box-AboutUs .Description {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    @media(max-width: 500px){font-size: 12px;}
+}

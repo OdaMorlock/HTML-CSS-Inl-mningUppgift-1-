@@ -1,0 +1,53 @@
+#MainMenu{
+
+    border: 1px solid black;
+
+}
+
+#MainMenu .Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#MainMenu .Logo{
+     img{
+        height: 50px;
+    }
+}
+
+#MainMenu .NavBar{
+    
+
+
+     ul{
+        display: flex;
+        list-style: none;
+        
+        li{
+       
+        margin-right: 1rem;
+
+        @media(max-width:500px){display: none;}
+
+         a{
+            text-decoration: none;
+            color: $GreyBlack;
+        }
+
+       }
+
+
+    }
+
+}
+
+#MainMenu .NavBar .Btn{
+    display: none;
+    @media(max-width: 500px){display: block;}
+    margin-top: -80px;
+
+}

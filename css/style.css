@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.Container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+#TopMenu {
+  border: 1px solid black;
+}
+
+@media (max-width: 798px) {
+  #TopMenu {
+    display: none;
+  }
+}
+
+#TopMenu .Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#TopMenu .Container .Hours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+
+#TopMenu .Container .Hours i {
+  color: #2BAAEC;
+}
+
+#TopMenu .Container .Hours p {
+  margin-left: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+#TopMenu .Container .SocialIcons a {
+  padding-right: 1rem;
+  margin-left: 1rem;
+  color: #2BAAEC;
+}
+
+#TopMenu .Container .SocialIcons a:hover {
+  color: #25E6C8;
+}
+
+#MainMenu {
+  border: 1px solid black;
+}
+
+#MainMenu .Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#MainMenu .Logo img {
+  height: 50px;
+}
+
+#MainMenu .NavBar ul {
+  display: flex;
+  list-style: none;
+}
+
+#MainMenu .NavBar ul li {
+  margin-right: 1rem;
+}
+
+@media (max-width: 500px) {
+  #MainMenu .NavBar ul li {
+    display: none;
+  }
+}
+
+#MainMenu .NavBar ul li a {
+  text-decoration: none;
+  color: #363636;
+}
+
+#MainMenu .NavBar .Btn {
+  display: none;
+  margin-top: -80px;
+}
+
+@media (max-width: 500px) {
+  #MainMenu .NavBar .Btn {
+    display: block;
+  }
+}
+
+#ShowCase {
+  border: 1px solid black;
+  height: 700px;
+  background-color: #DEDEDE;
+}
+
+@media (max-width: 800px) {
+  #ShowCase {
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  #ShowCase {
+    height: 300px;
+  }
+}
+
+#ShowCase .Container {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  #ShowCase .Container {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 800px) {
+  #ShowCase .Container {
+    margin-top: -75px;
+  }
+}
+
+#ShowCase .Container .Image-ShowCase {
+  display: none;
+  height: 680px;
+  width: 620px;
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+@media (min-width: 1400px) {
+  #ShowCase .Container .Image-ShowCase {
+    display: block;
+  }
+}
+
+#ShowCase .Container .Text-ShowCase {
+  padding-top: 5rem;
+  padding-left: 8rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  #ShowCase .Container .Text-ShowCase {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1140px) {
+  #ShowCase .Container .Text-ShowCase {
+    padding-left: 8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #ShowCase .Container .Text-ShowCase {
+    padding-left: 0;
+  }
+}
+
+#ShowCase .Container .Text-ShowCase h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+@media (max-width: 500px) {
+  #ShowCase .Container .Text-ShowCase h1 {
+    font-size: 32px;
+  }
+}
+
+#ShowCase .Container .Text-ShowCase p {
+  margin-top: -1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#ShowCase .Container .Text-ShowCase .Btn-ShowCase {
+  background-color: #25E6C8;
+  color: #FFFFFF;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+#AboutUs .Container {
+  display: flex;
+  justify-content: space-between;
+  height: 810px;
+}
+
+#AboutUs .Image-AboutUs {
+  padding-top: 5.3rem;
+  padding-right: 8rem;
+}
+
+@media (max-width: 1140px) {
+  #AboutUs .Image-AboutUs {
+    display: none;
+  }
+}
+
+#AboutUs .Text-AboutUs {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 5rem;
+  padding-left: 8rem;
+}
+
+@media (max-width: 500px) {
+  #AboutUs .Text-AboutUs {
+    padding-top: 0%;
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 800px) {
+  #AboutUs .Text-AboutUs {
+    padding-left: 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #AboutUs .Text-AboutUs {
+    padding-left: 3.5rem;
+    text-align: center;
+  }
+}
+
+#AboutUs .Text-AboutUs p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  #AboutUs .Text-AboutUs p {
+    font-size: 12px;
+  }
+}
+
+#AboutUs .Header-AboutUs {
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  border-bottom: 4px solid #25E6C8;
+}
+
+@media (max-width: 500px) {
+  #AboutUs .Header-AboutUs {
+    font-size: 20px;
+  }
+}
+
+#AboutUs .AboutUs-Text-Blue {
+  color: #2BAAEC;
+}
+
+#AboutUs .Statistic-AboutUs {
+  display: flex;
+  justify-content: space-between;
+}
+
+#AboutUs .Statistic-Box-AboutUs .Number {
+  color: #2BAAEC;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+}
+
+@media (max-width: 500px) {
+  #AboutUs .Statistic-Box-AboutUs .Number {
+    font-size: 20px;
+  }
+}
+
+#AboutUs .Statistic-Box-AboutUs .Description {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  #AboutUs .Statistic-Box-AboutUs .Description {
+    font-size: 12px;
+  }
+}
+
+#Appointment {
+  background-color: #2BAAEC;
+}
+
+@media (min-width: 500px) {
+  #Appointment {
+    display: block;
+  }
+}
+
+#Appointment .Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  height: 150px;
+}
+
+@media (max-width: 500) {
+  #Appointment .Container {
+    padding-top: 125rem;
+  }
+}
+
+@media (min-width: 500) {
+  #Appointment .Container {
+    height: 0;
+  }
+}
+
+#Appointment .Left-Column {
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  #Appointment .Left-Column {
+    padding-left: 5rem;
+  }
+}
+
+#Appointment .Left-Column p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 500px) {
+  #Appointment .Left-Column p {
+    font-size: 12px;
+  }
+}
+
+#Appointment .Right-Column {
+  padding-right: 5rem;
+}
+
+@media (max-width: 500px) {
+  #Appointment .Right-Column {
+    padding-left: 2rem;
+    margin-right: -30px;
+  }
+}
+
+#Appointment .Right-Column .Btn-BookAppointment {
+  height: 40px;
+  width: 200px;
+  background-color: #FFFFFF;
+  color: #2BAAEC;
+  border-color: transparent;
+}
+
+@media (max-width: 500px) {
+  #Appointment .Right-Column .Btn-BookAppointment {
+    width: 100px;
+    font-size: 10px;
+    height: 30px;
+  }
+}
+
+#Footer {
+  background-color: #1D91CE;
+  height: 50px;
+}
+
+#Footer .Container {
+  margin-top: -18px;
+  margin-bottom: -8px;
+}
+
+#Footer .CopyRight {
+  padding-top: 1px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#Footer .CopyRight p {
+  color: #FFFFFF;
+}

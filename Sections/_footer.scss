@@ -1,0 +1,19 @@
+
+#Footer{
+    background-color: $DarkerBlue;
+    height: 50px;
+}
+
+#Footer .Container{
+    margin-top: -18px;
+    margin-bottom: -8px;
+}
+
+#Footer .CopyRight{
+    padding-top: 1px;
+    padding-bottom: 3px;
+    text-align: center;
+    p{
+        color: $White;
+    }
+}

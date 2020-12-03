@@ -1,0 +1,48 @@
+#TopMenu{
+
+border:  1px solid black;
+
+@media(max-width: 798px){
+    display: none;
+}
+
+}
+
+#TopMenu .Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#TopMenu .Container .Hours{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+
+     i{
+        color: $Blue;
+    }
+
+     p{
+        margin-left: 0.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+#TopMenu .Container .SocialIcons{
+
+        a{
+        padding-right: 1rem;
+        margin-left: 1rem;
+        color: $Blue;
+
+        &:hover{
+            color: $Teal;
+        }
+
+    }
+}
+
