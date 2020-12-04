@@ -139,6 +139,12 @@ html, body {
   }
 }
 
+@media (max-width: 400px) {
+  #ShowCase {
+    height: 350px;
+  }
+}
+
 #ShowCase .Container {
   display: flex;
 }
