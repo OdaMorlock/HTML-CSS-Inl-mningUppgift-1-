@@ -123,6 +123,12 @@ html, body {
 
 @media (max-width: 800px) {
   #ShowCase {
+    margin-top: 4.6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #ShowCase {
     height: 500px;
   }
 }
@@ -168,6 +174,12 @@ html, body {
   padding-left: 8rem;
   padding-right: 2rem;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  #ShowCase .Container .Text-ShowCase {
+    margin-top: -5rem;
+  }
 }
 
 @media (max-width: 500px) {

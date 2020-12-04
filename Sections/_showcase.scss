@@ -2,13 +2,15 @@
 
     height: 700px;
     background-color: $LightGrey;
-    
+
+    @media(max-width: 800px){margin-top: 4.6rem;}
     @media(max-width: 800px){height: 500px;}
     @media(max-width: 500px){height: 300px;}
 }
 
 #ShowCase .Container{
     display: flex;
+    
     @media(max-width: 500px){margin-top: -50px;}
     @media(max-width: 800px){margin-top: -75px;}
 }
@@ -25,7 +27,7 @@
 }
 
 #ShowCase .Container .Text-ShowCase{
-
+    @media(max-width: 500px){margin-top: -5rem;}
     @media(max-width: 500px){padding-left: 0; }
 
     padding-top: 5rem;
