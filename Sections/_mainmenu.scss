@@ -1,6 +1,6 @@
 #MainMenu{
 
-    border: 1px solid black;
+border-bottom: 2px grey solid;
 
 }
 
@@ -14,6 +14,7 @@
 }
 
 #MainMenu .Logo{
+    padding-left: 1rem;
      img{
         height: 50px;
     }
